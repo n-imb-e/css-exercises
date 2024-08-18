@@ -2,26 +2,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.para.small-para,
+.text.child {
+  font-size: small;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+#confirm-button {
+  color: white;
+  background-color: green;
+  font-weight: bold;
 }
+
+.text {
+  font-weight: lighter;
+}
+
+.para,
+.small-para,
+.text.child {
+  color: hsl(0, 0%, 0%);
+  font-weight: 900;
+}
+
 
 .para {
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
